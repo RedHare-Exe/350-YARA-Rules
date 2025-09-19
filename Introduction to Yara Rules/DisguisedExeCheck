@@ -8,11 +8,10 @@ rule disguisedExeCheck
     date = "2025-09-19"
 
   strings:
-    $exeHeader = "4d 5a" nocase
+    $exeHeader = { 4D 5A }
     $executableText = "!This program cannot be run in DOS mode."
 
   condtions:
     executable > 0 and
     exeHeader
 }
-    

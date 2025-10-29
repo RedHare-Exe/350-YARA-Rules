@@ -1,6 +1,6 @@
 rule JavaMethod {
     meta:
-        description: = "Checks if a file contains java.lang.reflect.Method"
+        description = "Checks if a file contains java.lang.reflect.Method"
         author = "Elizabeth Chadbourne"
         date = "2025-10-28"
     strings:

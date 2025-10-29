@@ -1,6 +1,6 @@
 rule PowershellDetect {
     meta:
-        description: = "Checks if a executes Powershell"
+        description = "Checks if a file executes Powershell"
         author = "Elizabeth Chadbourne"
         date = "2025-10-28"
     strings:

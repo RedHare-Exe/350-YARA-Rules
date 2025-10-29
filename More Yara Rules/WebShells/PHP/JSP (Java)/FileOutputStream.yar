@@ -1,6 +1,6 @@
 rule FileOutputStream {
     meta:
-        description: = "Checks if a file contains FileOutputStream"
+        description = "Checks if a file contains FileOutputStream"
         author = "Elizabeth Chadbourne"
         date = "2025-10-28"
     strings:

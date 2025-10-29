@@ -1,6 +1,6 @@
 rule CmdDetect {
     meta:
-        description: = "Checks if a executes cmd"
+        description = "Checks if a file executes cmd"
         author = "Elizabeth Chadbourne"
         date = "2025-10-28"
     strings:

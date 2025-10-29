@@ -1,6 +1,6 @@
 rule JavaScriptEngine {
     meta:
-        description: = "Checks if a file contains java.script.Script.Engine"
+        description = "Checks if a file contains java.script.Script.Engine"
         author = "Elizabeth Chadbourne"
         date = "2025-10-28"
     strings:

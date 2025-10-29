@@ -1,6 +1,6 @@
 rule PageContext {
     meta:
-        description: = "Checks if a file contains pageContext.include"
+        description = "Checks if a file contains pageContext.include"
         author = "Elizabeth Chadbourne"
         date = "2025-10-28"
     strings:

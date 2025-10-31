@@ -4,7 +4,7 @@ rule Runtime {
         author = "Elizabeth Chadbourne"
         date = "2025-10-27"
     strings:
-        $runtime = "Runtime.getRuntime(exec("
+        $runtime = "Runtime.getRuntime()exec("
     condition:
         $runtime
 

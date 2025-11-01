@@ -8,6 +8,6 @@ rule GetRequestDispatcher {
         $var1 = "request.getRequestDispatcher("
         $var2 = ".include("
     condition:
-        $var1 and $var2
+        all of them
 
 }

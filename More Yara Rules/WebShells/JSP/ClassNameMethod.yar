@@ -7,8 +7,8 @@ rule ClassNameMethod {
     strings:
         $var1 = "Class.forName("
         $var2 = ".getMethod("
-        var3 = ".invoke("
+        $var3 = ".invoke("
     condition:
-        $var1 and $var2 and $var3
+        all of them
 
 }

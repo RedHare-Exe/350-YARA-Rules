@@ -5,8 +5,8 @@ rule ProcessBuilder {
         date = "2025-10-28"
         version = "1.0"
     strings:
-        $runtime = "ProcessBuilder.start("
+        $var1 = "ProcessBuilder.start("
     condition:
-        $runtime
+        $var1
 
 }

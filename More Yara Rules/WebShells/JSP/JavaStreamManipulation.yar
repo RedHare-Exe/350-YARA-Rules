@@ -9,6 +9,6 @@ rule JavaStreamManipulation {
         $var2 = "System.setOut("
         $var3 = "System.setErr("
     condition:
-        $var1 or $var2 or $var3
+        any of them
 
 }

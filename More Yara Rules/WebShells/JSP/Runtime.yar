@@ -3,9 +3,11 @@ rule Runtime {
         description = "Checks if a file contains Runtime exec"
         author = "Elizabeth Chadbourne"
         date = "2025-10-27"
+        version = "1.0"
     strings:
-        $runtime = "Runtime.getRuntime()exec("
+        $var1 = "Runtime.getRuntime("
+        $var2 = "exec("
     condition:
-        $runtime
+        $var1 and $var2
 
 }

@@ -3,9 +3,11 @@ rule GetRequestDispatcher {
         description = "Checks if a file contains getRequestDispatcher"
         author = "Elizabeth Chadbourne"
         date = "2025-10-28"
+        version = "1.0"
     strings:
-        $var1 = "request.getRequestDispatcher(.include("
+        $var1 = "request.getRequestDispatcher("
+        $var2 = ".include("
     condition:
-        $var1
+        $var1 and $var2
 
 }

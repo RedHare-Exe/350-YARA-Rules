@@ -41,3 +41,7 @@ test/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Ignorable Text Files #
+########################
+*.txt

@@ -6,7 +6,7 @@ rule zip
     date = "2025-11-2"
 
     strings:
-	$ext = "zip"
+	$ext = ".zip"
 
     condition:
     	$ext

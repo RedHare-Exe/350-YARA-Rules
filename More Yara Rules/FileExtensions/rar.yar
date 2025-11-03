@@ -6,7 +6,7 @@ rule rar
     date = "2025-11-2"
 
     strings:
-	$ext = "rar"
+	$ext = ".rar"
 
     condition:
     	$ext

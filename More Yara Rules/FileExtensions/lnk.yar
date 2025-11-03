@@ -6,7 +6,7 @@ rule lnk
     date = "2025-11-2"
 
     strings:
-	$ext = "lnk"
+	$ext = ".lnk"
 
     condition:
     	$ext

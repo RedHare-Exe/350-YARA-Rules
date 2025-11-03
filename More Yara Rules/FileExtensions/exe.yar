@@ -6,7 +6,7 @@ rule exe
     date = "2025-11-2"
 
     strings:
-	$ext = "exe"
+	$ext = ".exe"
 
     condition:
     	$ext

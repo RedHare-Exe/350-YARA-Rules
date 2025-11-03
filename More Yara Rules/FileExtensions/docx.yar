@@ -6,7 +6,7 @@ rule docx
     date = "2025-11-2"
 
     strings:
-	$ext = "docx"
+	$ext = ".docx"
 
     condition:
     	$ext

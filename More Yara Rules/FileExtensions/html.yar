@@ -6,7 +6,7 @@ rule html
     date = "2025-11-2"
 
     strings:
-	$ext = "html"
+	$ext = ".html"
 
     condition:
     	$ext

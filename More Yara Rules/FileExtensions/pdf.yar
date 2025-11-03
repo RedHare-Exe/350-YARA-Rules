@@ -6,7 +6,7 @@ rule pdf
     date = "2025-11-2"
 
     strings:
-	$ext = "pdf"
+	$ext = ".pdf"
 
     condition:
     	$ext

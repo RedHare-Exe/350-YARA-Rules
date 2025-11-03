@@ -6,7 +6,7 @@ rule REPLACE
     date = "2025-11-2"
 
     strings:
-	$ext = "REPLACE"
+	$ext = ".REPLACE"
 
     condition:
     	$ext

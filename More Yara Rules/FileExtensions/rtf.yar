@@ -6,7 +6,7 @@ rule rtf
     date = "2025-11-2"
 
     strings:
-	$ext = "rtf"
+	$ext = ".rtf"
 
     condition:
     	$ext

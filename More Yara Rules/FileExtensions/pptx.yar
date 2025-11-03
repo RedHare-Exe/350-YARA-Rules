@@ -6,7 +6,7 @@ rule pptx
     date = "2025-11-2"
 
     strings:
-	$ext = "pptx"
+	$ext = ".pptx"
 
     condition:
     	$ext

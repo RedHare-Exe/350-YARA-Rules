@@ -6,7 +6,7 @@ rule dll
     date = "2025-11-2"
 
     strings:
-	$ext = "dll"
+	$ext = ".dll"
 
     condition:
     	$ext

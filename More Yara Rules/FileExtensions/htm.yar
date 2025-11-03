@@ -6,7 +6,7 @@ rule htm
     date = "2025-11-2"
 
     strings:
-	$ext = "htm"
+	$ext = ".htm"
 
     condition:
     	$ext

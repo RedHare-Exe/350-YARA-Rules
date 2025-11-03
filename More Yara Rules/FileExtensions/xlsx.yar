@@ -6,7 +6,7 @@ rule xlsx
     date = "2025-11-2"
 
     strings:
-	$ext = "xlsx"
+	$ext = ".xlsx"
 
     condition:
     	$ext

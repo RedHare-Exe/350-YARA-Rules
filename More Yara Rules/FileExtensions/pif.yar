@@ -6,7 +6,7 @@ rule pif
     date = "2025-11-2"
 
     strings:
-	$ext = "pif"
+	$ext = ".pif"
 
     condition:
     	$ext

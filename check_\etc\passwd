@@ -1,0 +1,11 @@
+rule check /etc/passwd
+  {
+    meta:
+        description = "Checks if file is /etc/passwd from regaulr starts"
+        author = "mila delmas"
+        date = "2025-11-09"
+    strings:
+        $root_uid = "root:x:0:0." ascii
+        $passws_hdr = ":/bin/"
+  condition:
+        filesize < 20000 and ($root_uid or $passwd_hdr)

@@ -3,6 +3,7 @@
 # Specific Folders to Ignore #
 ##############################
 test/
+notes/
 
 # Compiled source #
 ###################
